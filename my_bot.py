@@ -108,4 +108,4 @@ async def on_message(message):
 
 
 # run the client on the server
-client.run('ODE1NTAyMzY4OTIwNTY3ODI4.YDtVxA.KMAeMSkAWn_s1r-AKCRCqeDww98')
+client.run(os.getenv('TOKEN'))
